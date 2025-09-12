@@ -39,6 +39,13 @@ print(resto)
 """
 
 #6.Crie um programa para receber um número e em seguida, exiba o quadrado dele.
+"""
 num = float(input("informe o valor: "))
 quadrado = num ** 0.5
 print(quadrado)
+"""
+#7.Elabora um programa para calcular a raiz quadrada de um número, utilizando a biblioteca math.
+import math 
+num = float(input("informe o número: "))
+raiz_quadrada = math.sqrt(num)
+print(raiz_quadrada)
