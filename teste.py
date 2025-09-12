@@ -52,6 +52,19 @@ raiz_quadrada = math.sqrt(num)
 print(raiz_quadrada)
 """
 #8. Crie um programa que seja capaz de calcular o valor absoluto de um número. 
+"""
 num = -5
 absoluto = abs(num)
 print (absoluto)
+"""
+#9. Quais são os tipos das variáveis abaixo?:  
+
+var1 = 347 #int
+var2 = 2.71 #float
+var3 = "347" #string
+var4 = 2+3j #Números Complexos
+
+#10. Faça um Programa que converta metros para centímetros. 
+metro = float(input("Informe a quantidade de metros para conversão: "))
+centimetro = metro * 100
+print(f"{metro} metros é igual a {centimetro} centimetros")
