@@ -29,8 +29,16 @@ num2 = int(input("informe o segundo valor: "))
 quociente = num1 / num2
 print(quociente)
 """
+
 #5. Crie um programa para receber dois valores e em seguida, exiba o resto da divisão entre eles. 
+"""
 num1 = float(input("informe o primeiro valor: "))
 num2 = float(input("informe o segundo valor: "))
 resto = num1 % num2
 print(resto)
+"""
+
+#6.Crie um programa para receber um número e em seguida, exiba o quadrado dele.
+num = float(input("informe o valor: "))
+quadrado = num ** 0.5
+print(quadrado)
