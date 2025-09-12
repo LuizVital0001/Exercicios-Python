@@ -13,9 +13,18 @@ num2= int(input("informe o segundo valor: "))
 diferenca = num1 - num2
 print(diferenca)
 """
-#Crie um programa para receber dois valores e em seguida, exiba o produto entre eles.
 
+#3.Crie um programa para receber dois valores e em seguida, exiba o produto entre eles.
+"""
 num1 = int(input("informe o primeiro valor: "))
 num2 = int(input("informe o segundo valor: "))
 produto = num1 * num2
 print(produto)
+"""
+
+#4.Crie um programa para receber dois valores e em seguida, exiba o quociente entre eles.
+
+num1 = int(input("informe o primeiro valor: "))
+num2 = int(input("informe o segundo valor: "))
+quociente = num1 / num2
+print(quociente)
