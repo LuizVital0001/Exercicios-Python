@@ -45,7 +45,13 @@ quadrado = num ** 0.5
 print(quadrado)
 """
 #7.Elabora um programa para calcular a raiz quadrada de um número, utilizando a biblioteca math.
+"""
 import math 
 num = float(input("informe o número: "))
 raiz_quadrada = math.sqrt(num)
 print(raiz_quadrada)
+"""
+#8. Crie um programa que seja capaz de calcular o valor absoluto de um número. 
+num = -5
+absoluto = abs(num)
+print (absoluto)
