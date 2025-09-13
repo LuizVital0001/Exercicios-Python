@@ -102,7 +102,7 @@ print(f"A temperatura {celsius}°C quando convertida para graus Fahrenheit é de
 #a) o produto do dobro do primeiro com metade do segundo. 
 #b) a soma do triplo do primeiro com o terceiro. 
 #c) o terceiro elevado ao cubo.
-
+"""
 n1 = int(input("Informe o primeiro número inteiro: "))
 n2 = int(input("Informe o segundo número inteiro: "))
 n3 = float(input("Informe o número real: "))
@@ -114,3 +114,21 @@ result3 = (n3 ** 3)
 print(f"O primeiro resultado é {result1}")
 print(f"O segundo resultado é {result2}")
 print(f"O terceiro resultado é {result3}")
+"""
+#17 - João Papo-de-Pescador, homem de bem, comprou um microcomputador para controlar o rendimento diário de seu trabalho. Toda vez que ele traz um peso
+# de peixes maior que o estabelecido pelo regulamento de pesca do estado de São Paulo (50 quilos) deve pagar uma multa de R$ 4,00 por quilo excedente.
+# João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso.
+# Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. 
+# Imprima os dados do programa com as mensagens adequadas.
+
+peso = float(input("Informe a quantidade de peixes em kilos: "))
+excesso = max(0, peso - 50)
+multa = excesso * 4.00
+
+print("-Resumo-")
+print(f"Peso: {peso} kg")
+print(f"Excesso: {excesso:.2f} kg")
+print(f"Multa: R$ {multa:.2f}")
+
+
+
