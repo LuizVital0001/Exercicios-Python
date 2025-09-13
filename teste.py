@@ -72,7 +72,22 @@ area = 3.14159 * (raio ** 2)
 print(f"A aréa do círculo com raio {raio} é: {area:2f}")
 """
 #12. Faça um Programa que calcule a área de um quadrado, em seguida mostre o dobro desta área para o usuário.
+"""
 lado = 10
 area = lado ** 2
 resultado = area + area
 print((f"O dobro da area do quadrado é {resultado}"))
+"""
+#13.  Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. 
+# Calcule e mostre o total do seu salário no referido mês. 
+
+valorHora = int(input("Informe o quanto você ganha por hora: "))
+horasTrabalhadas = int(input("informe quantas horas você trabalha por mês: "))
+Salario = valorHora * horasTrabalhadas
+print(f"Seu salário é {Salario},00 Reais")
+
+#14. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
+
+fahrenheit = float(input("informe a temperatura em graus fahrenheit: "))
+celsius = (fahrenheit - 32) * 5/9
+print(f"A temperatura {fahrenheit}°F quando convertida para graus celsius é de {celsius:.2f}°C")
