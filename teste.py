@@ -80,14 +80,37 @@ print((f"O dobro da area do quadrado é {resultado}"))
 """
 #13.  Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês. 
 # Calcule e mostre o total do seu salário no referido mês. 
-
+"""
 valorHora = int(input("Informe o quanto você ganha por hora: "))
 horasTrabalhadas = int(input("informe quantas horas você trabalha por mês: "))
 Salario = valorHora * horasTrabalhadas
 print(f"Seu salário é {Salario},00 Reais")
-
+"""
 #14. Faça um Programa que peça a temperatura em graus Fahrenheit, transforme e mostre a temperatura em graus Celsius.
-
+"""
 fahrenheit = float(input("informe a temperatura em graus fahrenheit: "))
 celsius = (fahrenheit - 32) * 5/9
 print(f"A temperatura {fahrenheit}°F quando convertida para graus celsius é de {celsius:.2f}°C")
+"""
+#15. Faça um Programa que peça a temperatura em graus Celsius, transforme e mostre a temperatura em graus Fahrenheit.
+"""
+celsius = float(input("informe a temperatura em graus celsius: "))
+fahrenheit = (celsius * 9/5) + 32
+print(f"A temperatura {celsius}°C quando convertida para graus Fahrenheit é de {fahrenheit:.2f}°F")
+"""
+#16 - Faça um Programa que peça 2 números inteiros e um número real. Calcule e mostre: 
+#a) o produto do dobro do primeiro com metade do segundo. 
+#b) a soma do triplo do primeiro com o terceiro. 
+#c) o terceiro elevado ao cubo.
+
+n1 = int(input("Informe o primeiro número inteiro: "))
+n2 = int(input("Informe o segundo número inteiro: "))
+n3 = float(input("Informe o número real: "))
+
+result1 = (n1 * 2) * (n2 / 2)
+result2 = (n1 * 3) + n3
+result3 = (n3 ** 3)
+
+print(f"O primeiro resultado é {result1}")
+print(f"O segundo resultado é {result2}")
+print(f"O terceiro resultado é {result3}")
