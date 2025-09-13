@@ -120,7 +120,7 @@ print(f"O terceiro resultado é {result3}")
 # João precisa que você faça um programa que leia a variável peso (peso de peixes) e calcule o excesso.
 # Gravar na variável excesso a quantidade de quilos além do limite e na variável multa o valor da multa que João deverá pagar. 
 # Imprima os dados do programa com as mensagens adequadas.
-
+"""
 peso = float(input("Informe a quantidade de peixes em kilos: "))
 excesso = max(0, peso - 50)
 multa = excesso * 4.00
@@ -129,6 +129,33 @@ print("-Resumo-")
 print(f"Peso: {peso} kg")
 print(f"Excesso: {excesso:.2f} kg")
 print(f"Multa: R$ {multa:.2f}")
+"""
+#18 - Faça um Programa que pergunte quanto você ganha por hora e o número de horas trabalhadas no mês.
+#Calcule e mostre o total do seu salário no referido mês, sabendo-se que são descontados 11% para o Imposto de Renda, 
+#8% para o INSS e 5% para o sindicato, faça um programa que nos dê:
+#a) salário bruto.  
+#b) quanto pagou ao INSS.  
+#c) quanto pagou ao sindicato.  
+#d) o salário líquido.  
+#e) calcule os descontos e o salário líquido, conforme a tabela abaixo:
+#+ Salário Bruto : R$
+#- IR (11%) : R$
+#- INSS (8%) : R$
+#- Sindicato ( 5%) : R$
+#= Salário Liquido : R$
 
+valorHora = int(input("Informe o quanto você ganha por hora: "))
+horasTrabalhadas = int(input("informe quantas horas você trabalha por mês: "))
+salario = valorHora * horasTrabalhadas
+print(f"+ Salário Bruto: R${salario}")
 
+ir = salario * 11 / 100
+inss = salario * 8 / 100
+sindicato = salario * 5 / 100
+salario_liquido = salario - ir - inss - sindicato
+
+print(f"- IR (11%): R${ir}")
+print(f"- INSS (11%): R${inss}")
+print(f"- Sindicato (11%): R${sindicato}")
+print(f"= Salário Liquido: R${salario_liquido}")
 
