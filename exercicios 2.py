@@ -20,7 +20,7 @@ else:
 """
 #03 Crie duas variáveis, "nota1" e "nota2", e atribua valores numéricos a elas. 
 #Verifique se a média das notas é maior ou igual a 7 e imprima "Aprovado" ou "Reprovado" de acordo com a condição. 
-
+"""
 nota1 = 7
 nota2 = 7
 media = (nota1 + nota2) / 2
@@ -29,3 +29,11 @@ if media >= 7:
     print(f"Sua média é {media} você esta aprovado!")
 else:
     print(f"Sua média é {media} você esta reprovado!")
+"""
+#04 Crie uma variável chamada "idade" e atribua um valor inteiro a ela. Verifique se a idade está dentro do intervalo
+# de 18 a 30 (inclusive) e imprima a mensagem "Idade válida" ou "Idade inválida" de acordo com a condição.
+idade = 30
+if idade >= 18 and idade <= 30:
+    print("Sua idade é valida")
+else:
+    print("Sua idade não é valida")
