@@ -143,7 +143,7 @@ print(f"Multa: R$ {multa:.2f}")
 #- INSS (8%) : R$
 #- Sindicato ( 5%) : R$
 #= Salário Liquido : R$
-
+"""
 valorHora = int(input("Informe o quanto você ganha por hora: "))
 horasTrabalhadas = int(input("informe quantas horas você trabalha por mês: "))
 salario = valorHora * horasTrabalhadas
@@ -155,7 +155,22 @@ sindicato = salario * 5 / 100
 salario_liquido = salario - ir - inss - sindicato
 
 print(f"- IR (11%): R${ir}")
-print(f"- INSS (11%): R${inss}")
-print(f"- Sindicato (11%): R${sindicato}")
+print(f"- INSS (8%): R${inss}")
+print(f"- Sindicato (5%): R${sindicato}")
 print(f"= Salário Liquido: R${salario_liquido}")
+"""
+#19 - Faça um programa para uma loja de tintas. O programa deverá pedir o tamanho em metros quadrados da área a ser pintada.
+#Considere que a cobertura da tinta é de 1 litro para cada 3 metros quadrados e que a tinta é vendida em latas de 18 litros,
+#que custam R$ 80,00. Informe ao usuário a quantidades de latas de tinta a serem compradas e o preço total.
+
+import math
+
+area = float(input("Informe o tamanho em metros quadrados da área a ser pintada: "))
+litros_necessarios = area / 3
+latas_necessarias = math.ceil(litros_necessarios / 18)
+preco_total = latas_necessarias * 80.00
+print(f"-Orçamento para {area}m2-")
+print(f"Litros de tinta necessários: {litros_necessarios:.2f}L")
+print(f"Latas necessárias: {latas_necessarias}")
+print(f"Preço total: R${preco_total}")
 
