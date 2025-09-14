@@ -163,7 +163,7 @@ else:
 print(f"O maior número é {maior}")
 """
 #17 Faça um Programa que leia três números e mostre o maior e o menor deles.
-
+"""
 num1 = 3
 num2 = 3
 num3 = 5
@@ -182,9 +182,29 @@ else:
     menor = num3
 print(f"O maior número é {maior}")
 print(f"O menor número é {menor}")
-
+"""
 #18 Faça um programa que pergunte o preço de três produtos e informe qual 
 #produto você deve comprar, sabendo que a decisão é sempre pelo mais barato. 
+preco1 = float(input("Informe o preço do primeiro produto: "))
+preco2 = float(input("informe o preço do segundo produto: "))
+preco3 = float(input("informe o preço do terceiro produto: "))
+
+if preco1 < preco2 and preco1 < preco3:
+    print(f"a melhor opção é o primeiro produto que custa R${preco1}")
+elif preco2 < preco3 and preco2 < preco1:
+    print(f"a melhor opção é o segundo produto que custa R${preco2}")
+elif preco3 < preco1 and preco3 < preco2:
+    print(f"a melhor opção é o terceiro produto que custa R${preco3}")
+elif preco1 == preco2 and preco1 < preco3:
+    print(f"Os produtos 1 e 2 são ambas excelentes opções, pois estão o mesmo preço e são mais baratos que o terceiro produto")
+elif preco2 == preco3 and preco2 < preco1:
+    print(f"Os produtos 2 e 3 são ambas excelentes opções, pois estão o mesmo preço e são mais baratos que o primeiro produto")
+elif preco3 == preco1 and preco3 < preco2:
+    print(f"Os produtos 1 e 3 são ambas excelentes opções, pois estão o mesmo preço e são mais baratos que o segundo produto")
+else:
+    print(f"Os três produtos possuem o mesmo valor")
+
+
 
 #19 Faça um Programa que leia três números e mostre-os em ordem decrescente.
 
