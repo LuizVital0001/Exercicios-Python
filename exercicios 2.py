@@ -150,10 +150,23 @@ else:
     print(f"Sua média é de {media}, Aprovado com Distinção.")
 """
 #16 Faça um Programa que leia três números e mostre o maior deles.
+"""
 num1 = 3
 num2 = 3
 num3 = 5
+if num1 >= num2 and num1 >= num3:
+    maior = num1
+elif num2 >= num1 and num2 >= num3:
+    maior = num2
+else:
+    maior = num3
+print(f"O maior número é {maior}")
+"""
+#17 Faça um Programa que leia três números e mostre o maior e o menor deles.
 
+num1 = 3
+num2 = 3
+num3 = 5
 if num1 >= num2 and num1 >= num3:
     maior = num1
 elif num2 >= num1 and num2 >= num3:
@@ -161,6 +174,20 @@ elif num2 >= num1 and num2 >= num3:
 else:
     maior = num3
 
+if num1 <= num2 and num1 <= num3:
+    menor = num1
+elif num2 <= num1 and num2 <= num3:
+    menor = num2
+else:
+    menor = num3
 print(f"O maior número é {maior}")
+print(f"O menor número é {menor}")
 
-#17 Faça um Programa que leia três números e mostre o maior e o menor deles.
+#18 Faça um programa que pergunte o preço de três produtos e informe qual 
+#produto você deve comprar, sabendo que a decisão é sempre pelo mais barato. 
+
+#19 Faça um Programa que leia três números e mostre-os em ordem decrescente.
+
+#20 Faça um Programa que pergunte em que turno você estuda. Peça para 
+#digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", 
+#"Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.
