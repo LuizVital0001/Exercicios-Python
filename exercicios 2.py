@@ -71,8 +71,19 @@ else:
     print("Peso Inválido!")
 """
 #08 Crie uma variável chamada "numero" e atribua um valor inteiro a ela. Verifique se o número é múltiplo de 3 e de 5 ao mesmo tempo e imprima a mensagem correspondente.
+"""
 numero = 10
 if numero % 3 == 0 and numero % 5 == 0:
     print("O numéro é multiplo de 3 e 5")
 else:
     print("O numero não é multiplo de 3 e 5")
+"""
+#09 Crie uma variável chamada "ano" e atribua um valor inteiro representando um ano.
+#Verifique se o ano é bissexto (divisível por 4, mas não por 100, exceto se for divisível 
+#por 400) e imprima a mensagem correspondente.
+
+ano = 2020
+if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
+    print("Ano Bissexto")
+else:
+    print("Ano não é bissexto")
