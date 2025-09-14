@@ -60,12 +60,19 @@ elif horario > 18 and horario <= 23:
     print("Horário da noite")
 else: 
     print("Horário da madrugada")
-    """
-#07 Exercício 07 - Crie uma variável chamada "peso" e atribua um valor numérico a ela. Verifique se o peso está dentro do 
+"""
+#07 Crie uma variável chamada "peso" e atribua um valor numérico a ela. Verifique se o peso está dentro do 
 #intervalo de 50 a 100 (inclusive) e imprima a mensagem "Peso válido" ou "Peso inválido" de acordo com a condição. 
-
+"""
 peso = 101
 if peso >= 50 and peso <=100:
     print("Peso valido!")
 else:
     print("Peso Inválido!")
+"""
+#08 Crie uma variável chamada "numero" e atribua um valor inteiro a ela. Verifique se o número é múltiplo de 3 e de 5 ao mesmo tempo e imprima a mensagem correspondente.
+numero = 10
+if numero % 3 == 0 and numero % 5 == 0:
+    print("O numéro é multiplo de 3 e 5")
+else:
+    print("O numero não é multiplo de 3 e 5")
