@@ -129,10 +129,38 @@ else:
     (print("Sexo Inválido"))
 """
 #14 Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
+"""
 letra = input("Digite qualquer letra do alfabeto: ").upper()
 if letra == "A" or letra == "E" or letra == "I" or letra == "O" or letra == "U":
     print(f"A letra '{letra}' é uma vogal.")
 else:
     print(f"A letra '{letra}' é uma consoante.")
+"""
+#15 Faça um programa para a leitura de duas notas parciais de um aluno. O programa deve calcular a média alcançada por aluno e apresentar: 
+#A mensagem "Aprovado", se a média alcançada for maior ou igual a sete; A mensagem "Reprovado", se a média for menor do que sete; A mensagem "Aprovado com Distinção", se a média for igual a dez. 
+"""
+nota1 = 0
+nota2 = 10
+media = (nota1 + nota2) / 2
+if media >= 7 and media < 10:
+    print(f"Sua média é de {media}, você esta aprovado!")
+elif media < 7:
+    print(f"Sua média é de {media}, você esta reprovado...")
+else:
+    print(f"Sua média é de {media}, Aprovado com Distinção.")
+"""
+#16 Faça um Programa que leia três números e mostre o maior deles.
+num1 = 3
+num2 = 3
+num3 = 5
 
-#15
+if num1 >= num2 and num1 >= num3:
+    maior = num1
+elif num2 >= num1 and num2 >= num3:
+    maior = num2
+else:
+    maior = num3
+
+print(f"O maior número é {maior}")
+
+#17 Faça um Programa que leia três números e mostre o maior e o menor deles.
