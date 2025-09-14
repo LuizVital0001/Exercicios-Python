@@ -81,9 +81,32 @@ else:
 #09 Crie uma variável chamada "ano" e atribua um valor inteiro representando um ano.
 #Verifique se o ano é bissexto (divisível por 4, mas não por 100, exceto se for divisível 
 #por 400) e imprima a mensagem correspondente.
-
+"""
 ano = 2020
 if (ano % 4 == 0 and ano % 100 != 0) or (ano % 400 == 0):
     print("Ano Bissexto")
 else:
     print("Ano não é bissexto")
+"""    
+#10 Crie uma variável chamada "salario" e atribua um valor numérico a ela. Verifique se 
+#o salário é maior do que 1000 e menor do que 2000 ao mesmo tempo e imprima a mensagem correspondente.
+"""
+salario = 900
+if salario >= 1000 and salario <= 2000:
+    print(f"Seu salário é R${salario},00 e esta entre R$1000,00 e R$2000,00")
+else:
+    print(f"Seu salário é de R${salario},00 e não atende aos requisitos")
+"""
+#11  Faça um Programa que peça dois números e imprima o maior deles.
+num1 = 20
+num2 = 20
+
+if num1 > num2:
+    print(f"O número {num1} é o maior")
+elif num2 > num1:
+    print(f"O número {num2} é o maior")
+else:
+    print("Os números são iguais")
+
+#12 Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo. 
+    
