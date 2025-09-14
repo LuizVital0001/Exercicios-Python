@@ -32,8 +32,16 @@ else:
 """
 #04 Crie uma variável chamada "idade" e atribua um valor inteiro a ela. Verifique se a idade está dentro do intervalo
 # de 18 a 30 (inclusive) e imprima a mensagem "Idade válida" ou "Idade inválida" de acordo com a condição.
+"""
 idade = 30
 if idade >= 18 and idade <= 30:
     print("Sua idade é valida")
 else:
     print("Sua idade não é valida")
+"""
+#05 Crie uma variável chamada "numero" e atribua um valor inteiro a ela. Verifique se o número é par ou ímpar e imprima a mensagem correspondente.
+numero = 10
+if numero % 2 == 0:
+    print("O número é par")
+else:
+    print("O número é impar")
