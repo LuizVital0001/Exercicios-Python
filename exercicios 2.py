@@ -50,6 +50,7 @@ else:
 #06 Crie uma variável chamada "horario" e atribua um valor inteiro representando a hora do dia
 #(em formato 24 horas). Verifique se o horário está dentro do período da manhã (das 6h às 12h),
 #da tarde (das 12h às 18h) ou da noite (das 18h às 23h) e imprima a mensagem correspondente.
+"""
 horario = 24
 if horario >= 6 and horario <= 12:
     print("Horário da manhã")
@@ -59,3 +60,12 @@ elif horario > 18 and horario <= 23:
     print("Horário da noite")
 else: 
     print("Horário da madrugada")
+    """
+#07 Exercício 07 - Crie uma variável chamada "peso" e atribua um valor numérico a ela. Verifique se o peso está dentro do 
+#intervalo de 50 a 100 (inclusive) e imprima a mensagem "Peso válido" ou "Peso inválido" de acordo com a condição. 
+
+peso = 101
+if peso >= 50 and peso <=100:
+    print("Peso valido!")
+else:
+    print("Peso Inválido!")
