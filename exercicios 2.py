@@ -98,15 +98,34 @@ else:
     print(f"Seu salário é de R${salario},00 e não atende aos requisitos")
 """
 #11  Faça um Programa que peça dois números e imprima o maior deles.
+"""
 num1 = 20
 num2 = 20
-
 if num1 > num2:
     print(f"O número {num1} é o maior")
 elif num2 > num1:
     print(f"O número {num2} é o maior")
 else:
     print("Os números são iguais")
-
+"""
 #12 Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo. 
-    
+"""
+numero = -10
+if numero > 0:
+    print(f"O número {numero} é positivo")
+elif numero < 0:
+    print(f"O número {numero} é negativo")
+else:
+    print("Zero é um valor neutro")
+"""
+#13Faça um Programa que verifique se uma letra digitada é "F" ou "M". Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.
+"""
+sexo = input("Digite a letra correspondente ao seu sexo: ").upper()
+if sexo == "F":
+    print("Sexo Feminino")
+elif sexo == "M":
+    print("Sexo Masculino")
+else:
+    (print("Sexo Inválido"))
+"""
+#14 Faça um Programa que verifique se uma letra digitada é vogal ou consoante.
