@@ -185,6 +185,7 @@ print(f"O menor número é {menor}")
 """
 #18 Faça um programa que pergunte o preço de três produtos e informe qual 
 #produto você deve comprar, sabendo que a decisão é sempre pelo mais barato. 
+"""
 preco1 = float(input("Informe o preço do primeiro produto: "))
 preco2 = float(input("informe o preço do segundo produto: "))
 preco3 = float(input("informe o preço do terceiro produto: "))
@@ -203,10 +204,9 @@ elif preco3 == preco1 and preco3 < preco2:
     print(f"Os produtos 1 e 3 são ambas excelentes opções, pois estão o mesmo preço e são mais baratos que o segundo produto")
 else:
     print(f"Os três produtos possuem o mesmo valor")
-
-
-
+"""
 #19 Faça um Programa que leia três números e mostre-os em ordem decrescente.
+
 
 #20 Faça um Programa que pergunte em que turno você estuda. Peça para 
 #digitar M-matutino ou V-Vespertino ou N- Noturno. Imprima a mensagem "Bom Dia!", 
